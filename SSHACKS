@@ -1,0 +1,14 @@
+// ==UserScript==
+// @name         Hacks for Shellshock.io
+// @version      5
+// @description  Hack for Shell Shockers
+// @author       KLJM
+// @match        *://shellshock.io/*
+// @grant        none
+// @namespace https://greasyfork.org/users/697712
+// ==/UserScript==
+
+var script = document.createElement('script');
+script.src = '//dl.dropbox.com/s/0p0a3kw9m2pe330/shellshockershack.min.js?dl=0';
+script.type = 'text/javascript';
+document.body.appendChild(script);
